@@ -9,7 +9,7 @@ This is command line tool that is to nofity 'line notify' with ping monitoring.
 You need to set envinronment varialbe 'LINE_API_TOKEN'.
 ```sh
 export LINE_API_TOKEN='<you token>`
-`'```
+```
 
 ### Monitoring target
 
