@@ -1,12 +1,12 @@
 # ping-monitor-line-notify
 
-This is command line tool that is to nofity 'line notify' with ping monitoring.
+This is command line tool that is to nofity 'line notLINE_API_TOKENify' with ping monitoring.
 
 ## How to use
 
 ### Environment valiables
 
-You need to set envinronment varialbe 'LINE_API_TOKEN'.
+You need to set envinronment varialbe `LINE_API_TOKEN`.
 ```sh
 export LINE_API_TOKEN='<you token>`
 ```
