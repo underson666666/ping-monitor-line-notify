@@ -7,7 +7,7 @@ LINE_NOTIFY_API = "https://notify-api.line.me/api/notify"
 
 
 def main():
-    monitor_target = "192.168.1.4"
+    monitor_target = os.getenv("TARGET_HOST")
     is_connected = ping_monitoring(monitor_target)
     if not is_connected:
         msg = f"NOT Connect to {monitor_target}"
